@@ -11,13 +11,10 @@
     
     <!-- INSERIMENTO HEADER -->
      <header>
-
         <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                
+              <a class="navbar-brand" href="#">  
                 <img src="./img/duck.png" class="ms-thumb" alt="quaqua">
-
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,17 +41,66 @@
               </div>
             </div>
           </nav>
-
-
-
      </header>
     <!-- /HEADER -->
 
     <!-- INSERIMENTO MAIN -->
-    <main class="container">
+    <main class="container mt-5">
 
+            <div class="row align-items-start">
+              <div class="col-12">
+                
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">Titolo</th>
+                        <th scope="col">Data Prestito</th>
+                        <th scope="col">Stato</th>
+                        <th scope="col">Azioni</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">I pilastri della terra</th>
+                        <td>- </td>
+                        <td><span class="badge text-bg-success">Disponibile</span></td>
+                        <td>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button class="btn active" data-bs-toggle="button" aria-pressed="true">Button</button>
+                                <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Button</button>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
 
-
+              </div>
+              
+              <div class="col-12">                
+                    <div class="row align-items-start">
+                      
+                      <div class="col-12">
+                        Card1
+                      </div>
+                      
+                      <div class="col-12">
+                        Card2
+                      </div>
+                      
+                    </div>
+                </div>
+            </div>
     </main>
     <!-- /MAIN -->
 
